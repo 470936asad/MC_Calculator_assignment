@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/Editview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter first value"
+        android:inputType="number"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/Editview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter second value"
+        android:inputType="number"
+        android:padding="15dp" />
+
+    <TextView
+        android:id="@+id/Textview"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Answer" />
+
+    <Button
+        android:id="@+id/Btminus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/black"
+        android:padding="15dp"
+        android:text="-"
+        android:textColor="@android:color/holo_orange_light"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Btplus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/black"
+        android:padding="15dp"
+        android:text="+"
+        android:textColor="@android:color/holo_orange_light"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Btmultiply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/black"
+        android:padding="15dp"
+        android:text="*"
+        android:textColor="@android:color/holo_orange_light"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Btdivide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/black"
+        android:padding="15dp"
+        android:text="/"
+        android:textColor="@android:color/holo_orange_light"
+        android:textStyle="bold" />
+</LinearLayout>
